@@ -14,8 +14,8 @@ class CalculatorTest {
 
     @Test
     void addsTwoNumbers() {
-        assertEquals(5, calculator.add(2, 3));
-        assertEquals(0, calculator.add(-1, 1));
+        assertEquals(99, calculator.add(2, 3));
+        assertEquals(5, calculator.add(-1, 1));
     }
 
     @Test
